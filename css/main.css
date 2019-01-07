@@ -1,0 +1,178 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#note_header {
+    text-align: center;
+}
+
+h1, h2, a {
+    font-family: co-headline, sans-serif;
+}
+
+.videoAnimation {
+    border-radius: 0.4em;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: translateY(-80%);
+    width: 100%;
+}
+
+#note_header .jumbotron {
+    background-color: #ffffff;
+    min-height: 40rem;
+}
+
+#note_header .form-control {
+    height: 3em;
+}
+
+#breakdown {
+    background-color: #f8f9fa;
+    text-align: center;
+    min-height: 30em;
+    margin-bottom: 6em;
+}
+
+#breakdown .context_1 {
+    transform: translateY(-50%);
+    width: 15rem;
+    position: absolute;
+    right: 10vh;
+}
+
+#breakdown .context_2 {
+    transform: translateY(-40%);
+    position: absolute;
+    left: 10vh;
+    width: 15rem;
+}
+
+.btn-note {
+    border: 1px solid #EA7B39 !important;
+    color: #EA7B39 !important;
+    background: none;
+}
+
+.btn-note:hover {
+    border: 1px solid #EA7B39 !important;
+    color: #ffffff !important;
+    background: #EA7B39;
+}
+
+.btn-note:focus {
+    border: 1px solid #EA7B39 !important;
+    color: #ffffff !important;
+    background: #EA7B39;
+}
+
+/* Breakdown ------------------------------------ */
+
+#breakdown .note_desc {
+    padding-top: 2em;
+    text-align: left;
+}
+
+.note_desc h2 {
+    border-left: 5px solid #EA7B39;
+    padding-left: 0.2em;
+}
+
+.note_desc span {
+    color: #EA7B39;
+}
+
+.note_desc p {
+    margin-top: 1em;
+}
+
+.note_desc a {
+    color: #EA7B39 !important;
+    cursor: pointer;
+}
+
+.note_desc i {
+    padding-left: 0.5em;
+    transition: padding-left 1s;
+}
+
+.note_desc a:hover i {
+    padding-left: 2em;
+}
+
+
+/* Application ----------------------------------*/
+
+#application {
+    margin-bottom: 6em;
+}
+
+#application .container {
+    background-image: url(../img/section/section_app_bg-02.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#application .card-container {
+    padding: 0;
+}
+
+#application .card {
+    margin-bottom: 4em;
+    background-color: rgba(255,255,255,0.9)
+}
+
+#application .card-header {
+    padding: 0.2rem 0.5rem;
+    background: rgba(234,123,57,0.5)
+}
+
+#application .card-body {
+    padding: 1rem;
+} 
+
+#application .card-header i {
+    color: #EA7B39;
+}
+
+#n-1 {
+    visibility: hidden;
+}
+
+#n-2 {
+    visibility: hidden;
+}
+
+/* Footer --------------------------------------*/
+
+#finish {
+    background-color: #f8f9fa;
+    padding-top: 4em;
+}
+
+#finish ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#finish li {
+    margin-bottom: 0.5em;
+}
+
+.footer-end{
+    background-color: #0b0c0e;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
