@@ -107,6 +107,15 @@ h1, h2, a {
     margin-bottom: 6em;
 }
 
+#application .card-title {
+    font-family: co-headline, sans-serif;
+}
+
+#application .card-title span {
+    float: right;
+    color: #EA7B39;
+}
+
 #application .container {
     background-image: url(../img/section/section_app_bg-02.svg);
     background-position: center;
@@ -126,6 +135,12 @@ h1, h2, a {
 #application .card-header {
     padding: 0.2rem 0.5rem;
     background: rgba(234,123,57,0.5)
+}
+
+#application .card-header p {
+    float: right;
+    margin: 0;
+    font-family: co-headline, sans-serif;
 }
 
 #application .card-body {
@@ -164,6 +179,18 @@ h1, h2, a {
     background-color: #0b0c0e;
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+#finish i {
+    color: rgba(255,255,255,0.6);
+    margin-right: 0.8em;
+    transition: font-size 1s;
+}
+
+#finish i:hover {
+    color: #EA7B39;
+    cursor: pointer;
+    font-size: 2.5em;
 }
 
 
