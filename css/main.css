@@ -194,6 +194,42 @@ h1, h2, a {
 }
 
 
+/* Media Queries --------------------------------*/
+
+@media screen and (max-width: 415px) {
+    .context_1 {
+        display: none;
+    }
+    
+    .jumbotron {
+        height: 80% !important;
+    }
+    
+    .context_2 {
+        display: none;
+    }
+    
+    .videoAnimation {
+        transform: translateY(-180%);
+    }
+    
+    #mobile-vid {
+        max-height: 0 !important;
+    }
+    
+    .note_desc .col-md-3 {
+        margin-bottom: 3em;
+    }
+    
+    #application .container {
+        background: none;
+    }
+    
+    #application .card {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
 
 
 
