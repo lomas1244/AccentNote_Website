@@ -1,6 +1,8 @@
 html, body {
     overflow-x: hidden;
     width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 #note_header {
@@ -196,13 +198,13 @@ h1, h2, a {
 
 /* Media Queries --------------------------------*/
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 600px) {
     .context_1 {
         display: none;
     }
     
     .jumbotron {
-        height: 80% !important;
+        min-height: 30rem !important;
     }
     
     .context_2 {
@@ -210,7 +212,7 @@ h1, h2, a {
     }
     
     .videoAnimation {
-        transform: translateY(-180%);
+        transform: translateY(-130%);
     }
     
     #mobile-vid {
@@ -230,6 +232,42 @@ h1, h2, a {
         margin-right: 2em;
     }
 }
+
+@media screen and (max-width: 737px) and (min-width: 601px) {
+    .context_1 {
+        display: none;
+    }
+    
+    .jumbotron {
+        height: 80% !important;
+    }
+    
+    .context_2 {
+        display: none;
+    }
+    
+    .videoAnimation {
+        transform: translateY(-150%);
+    }
+    
+    #mobile-vid {
+        max-height: 0 !important;
+    }
+    
+    .note_desc .col-md-3 {
+        margin-bottom: 3em;
+    }
+    
+    #application .container {
+        background: none;
+    }
+    
+    #application .card {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
 
 
 

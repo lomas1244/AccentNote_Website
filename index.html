@@ -22,7 +22,7 @@
         <meta name="Description" content="Keep track of all your clients in one easy-to-use interface which automatically sends reminders of impending deadlines and submissions via email and SMS. Customise your reminder periods, add and remove taxes and assign taxes to your clients via the web-app. We believe that automating menial and time consuming tasks leave more time to focus on providing a personal service to your clients, while also providing significant savings in administration.">
         <meta property="og:title" content="Accent Note (United Kingdom)">
         <meta property="og:description" content="Keep track of all your clients in one easy-to-use interface which automatically sends reminders of impending deadlines and submissions via email and SMS. Customise your reminder periods, add and remove taxes and assign taxes to your clients via the web-app. We believe that automating menial and time consuming tasks leave more time to focus on providing a personal service to your clients, while also providing significant savings in administration.">
-        <meta property="og:image" content="https://s3.eu-west-2.amazonaws.com/accentpos-img/AccentPOS_Cover_9.png">
+        <meta property="og:image" content="https://s3.eu-west-2.amazonaws.com/accentpos-img/AccentNote_Title.png">
         <meta property="og:url" content="https://www.accentnote.com/">
         <meta property="og:locale" content="en_GB">
         <meta property="og:type" content="website">
@@ -31,6 +31,9 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <!-- Mailchimp Email input -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/accent-note-favicon.gif">
@@ -50,7 +53,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
         <title>Accent Note | Quick reminders for your business</title>
-        
+
         <!-- Mailchimp Analytics -->
         <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c12696916a6d680c50387a1cb/d86cfd1618517d7132732dea0.js");</script>
     </head>
@@ -70,11 +73,14 @@
                             <a class="nav-link" href="#">Tour<span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#breakdown">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#application">Examples</a>
                         </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li> -->
                         <!-- <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 Dropdown
@@ -101,14 +107,34 @@ Dropdown
                         <div class="col-md-8">
                             <h1>Your personal secretary.</h1>
                             <p>Reminders for any of your important tasks.</p>
-                            <form>
-                                <div class="form-row">
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Enter your work email">
+                            <!-- Begin Mailchimp Signup Form -->
+
+                        
+                                <form action="https://accentpos.us16.list-manage.com/subscribe/post?u=c12696916a6d680c50387a1cb&amp;id=7c9c2b6705" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter your work email">
+                                        </div>
+
+                                        <div id="mce-responses" class="clear">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>    
+
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                            <input type="text" name="b_c12696916a6d680c50387a1cb_7c9c2b6705" tabindex="-1" value="">
+                                        </div>
+                                        <div class="clear">
+                                            <input style="height: 100%; margin: 0 !important;" type="submit" value="Try it now" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-note bounce">
+                                        </div>
                                     </div>
-                                    <button type="submit" class="btn btn-note btn-outline-success bounce">Try for free</button>
-                                </div>
-                            </form>
+                                </form>
+
+                            <!--End mc_embed_signup-->
+
+
                         </div>
                     </div>
                 </div>
@@ -200,7 +226,7 @@ Dropdown
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Room Booking<span>Custom</span></h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text">Your booking for conference room one is now active. The entrance code is 4398.</p>
                             </div>
                         </div>
                         <div class="card floating">
@@ -211,7 +237,7 @@ Dropdown
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Deadline<span>Custom</span></h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text">Please submit your updates to complete the client project, notify your team leader to confirm submission.</p>
                             </div>
                         </div>
                         <div id="n-2" class="card">
@@ -222,7 +248,7 @@ Dropdown
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Lead follow-up<span>Custom</span></h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text">Check out the latest leads on the CRM and make sure they have received initial correspondance.</p>
                             </div>
                         </div>
                     </div>
@@ -271,9 +297,8 @@ Dropdown
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <i class="fab fa-facebook-square fa-2x pulse"></i>
-                            <i class="fab fa-twitter-square fa-2x pulse"></i>
-                            <i class="fab fa-facebook-messenger fa-2x pulse"></i>
+                            <a href="https://www.facebook.com/accentnote/"><i class="fab fa-facebook-square fa-2x pulse"></i></a>
+                            <a href="https://www.m.me/accentnote"><i class="fab fa-facebook-messenger fa-2x pulse"></i></a>
                         </div>
                         <div class="col-md-4">
                         </div>
@@ -310,6 +335,13 @@ Dropdown
                     }
                 });
             });
+        </script>
+
+
+        <!-- Mailchimp submit -->
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>
+            (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);
         </script>
 
         <!-- Start of HubSpot Embed Code -->
